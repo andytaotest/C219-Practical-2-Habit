@@ -21,7 +21,7 @@ describe("Habit Tracker App", () => {
 
     fireEvent.click(button);
 
-    expect(screen.queryByText(/Habit/i)).not.toBeInTheDocument();
+    expect(screen.queryByText(/Delete/i)).not.toBeInTheDocument();
   });
 
   // HabitList and Habit Tests
